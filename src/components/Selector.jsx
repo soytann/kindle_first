@@ -5,6 +5,7 @@ const Selector = (props) => {
 	// console.log(props);
 	return (
 		<>
+		<div className="selector-container">
 			<select onChange={props.handleChangeCountry}>
 				<option value="">Select A Country</option>
 				{	props.countriesJson.map((country, index) => (
@@ -17,7 +18,7 @@ const Selector = (props) => {
 				
 			</select>
 			<button onClick={props.getCountryData}>GO</button>
-
+			</div>
     </>
   )
 }
