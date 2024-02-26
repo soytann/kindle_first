@@ -277,3 +277,10 @@ h1 {
       transform: rotate(360deg);
     }
 }
+.card div{
+  display:flex
+
+}
+.details{
+  flex-direction: column;
+}
